@@ -1,0 +1,18 @@
+/* EXAMPLE CSS */
+.related-posts li {
+    margin: 8px;
+    background: #FFF;
+    display: inline-block;
+    width: calc(33.3% - 8px);
+    box-shadow: 4px 8px 40px 0 rgba(0, 0, 0, .1);
+}
+
+.related-posts li .related-post-text-inner {
+    padding: 16px;
+}
+
+.related-post-thumb {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
